@@ -1,1 +1,3 @@
 Esto es una prueba para uq surjan conflictos
+
+Nuevo manual de usuario
