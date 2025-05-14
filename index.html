@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f8f8f8;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .product-card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .product-card h3 {
+      margin: 0.5rem 0;
+    }
+
+    .product-card p {
+      margin: 0.25rem 0;
+    }
+
+    .price {
+      font-weight: bold;
+      color: green;
+    }
+
+    .stock {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Nuestros Productos</h1>
+
+  <div class="grid">
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bK6VJQGCCtPNXsAD-42O7q0zgrWWrKIBbg&s" alt="Producto 1">
+      <h3>Camiseta Deportiva</h3>
+      <p>Cómoda y ligera para entrenar.</p>
+      <p class="price">$19.99</p>
+      <p class="stock">Stock: 25 unidades</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://tienda.elchecf.es/wp-content/uploads/2022/07/DH4071-001-PHCFH001.jpg" alt="Producto 2">
+      <h3>Zapatos Running</h3>
+      <p>Ideales para correr largas distancias.</p>
+      <p class="price">$59.99</p>
+      <p class="stock">Stock: 12 unidades</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.creapromocion.com/22064-large_default/botellas-de-agua-deportivas-650-ml-dom.jpg" alt="Producto 3">
+      <h3>Botella de Agua</h3>
+      <p>Reutilizable y ecológica de 1L.</p>
+      <p class="price">$9.99</p>
+      <p class="stock">Stock: 50 unidades</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.bordamar.es/tienda-ropa-trabajo-online/wp-content/uploads/2017/08/sudadera_capucha_55_azulmarino_827_1024.jpg" alt="Producto 4">
+      <h3>Sudadera con Capucha</h3>
+      <p>Perfecta para el frío y entrenamientos.</p>
+      <p class="price">$34.99</p>
+      <p class="stock">Stock: 18 unidades</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://contents.mediadecathlon.com/p2720265/k$80a4f297e7a4c3f0da3bdb7c4954bd4a/sq/mancuerna-10-kg-hexagonal-dumbbell-musculacion-cross-training-corength.jpg?format=auto&f=800x0" alt="Producto 5">
+      <h3>Mancuernas 10kg</h3>
+      <p>Set de 2 mancuernas de goma.</p>
+      <p class="price">$44.99</p>
+      <p class="stock">Stock: 7 unidades</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://tienda.fisaude.com/images/Esterilla%20nbr%20fitness.jpg" alt="Producto 6">
+      <h3>Esterilla Yoga</h3>
+      <p>Antideslizante y acolchada.</p>
+      <p class="price">$14.99</p>
+      <p class="stock">Stock: 30 unidades</p>
+    </div>
+  </div>
+
+</body>
+</html>
